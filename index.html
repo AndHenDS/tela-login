@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Login</title>
+</head>
+<body>
+  <div class="main">
+    <div class="login-esquerdo">
+      <h1>Faça Login<br>E venha nos conhecer!</h1>
+      <img src="brocolis.svg" alt="livros" class="imagem-login">
+    </div>
+
+    <div class="login-direito">
+      <form id="loginForm" class="login-formulario">
+        <h1>Login</h1>
+
+        <div class="text-field">
+          <label for="username">Usuário</label>
+          <input type="text" id="username" placeholder="Digite seu usuário" required>
+        </div>
+
+        <div class="text-field">
+          <label for="password">Senha</label>
+          <input type="password" id="password" placeholder="Digite sua senha" required>
+        </div>
+
+        <button class="botao-login" type="submit">Logar</button>
+        <p id="message"></p>
+      </form>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
